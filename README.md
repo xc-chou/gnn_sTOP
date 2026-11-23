@@ -1,4 +1,4 @@
-# GNN-assisted solver for Stochastic Team Orienteering Problem
+# GNN-assisted solver for Stochastic TOP
 
 Reproduction code and data for *A graph neural network-assisted solver for the two-stage stochastic team orienteering problem* by Xiaochen Chou, Enza Messina, and David Pisinger.
 
