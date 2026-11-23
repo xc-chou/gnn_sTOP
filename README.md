@@ -25,7 +25,7 @@ python -m pip install numpy==2.1.3 torch==2.5.1
 Quick check: run one target and one evaluation scenario:
 
 ```sh
-python code/reproduce.py --experiment oos --family STD --distribution uniform --instance 1 --scenario-count 1 --output-dir results/smoke
+python code/reproduce.py --experiment oos --family STD --distribution uniform --instance 1 --scenario-count 1 --output-dir results/test
 ```
 
 For the complete experiments, run these commands in order:
