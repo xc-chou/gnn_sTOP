@@ -1,0 +1,17 @@
+family,distribution,method,seconds,instances
+STD,uniform,P16,536.196,10
+STD,uniform,P128,655.687,10
+STD,uniform,P512,1380.068,10
+STD,clustered,P16,382.457,10
+STD,clustered,P128,488.63,10
+STD,clustered,P512,1117.509,10
+VAR,uniform,P16,515.413,10
+VAR,uniform,P128,569.216,10
+VAR,uniform,P512,1207.697,10
+VAR,clustered,P16,365.283,10
+VAR,clustered,P128,429.93,10
+VAR,clustered,P512,949.88,10
+LRG,clustered,P128,11987.474,10
+LRG,clustered,P16,7002.186,10
+LRG,uniform,P128,13495.358,10
+LRG,uniform,P16,7772.804,10
