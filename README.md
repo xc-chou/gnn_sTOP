@@ -39,7 +39,7 @@ python code/reproduce.py --experiment recourse-budget --workers 6
 python code/reproduce.py --experiment report --input-dir results/generated
 ```
 
-The OOS command runs all three families, or use `--family STD`, `VAR`, or `LRG` to run them separately into the same CSV. The budget experiment uses the fixed customer sets from the STD and VAR OOS runs. New results go to `results/generated/`. Full routing for all instances can take several hours. Use a different `--output-dir` to repeat an experiment. For an interrupted LRG run, use `--experiment oos --family LRG --resume` with the same target and output options.
+The OOS command runs all three families, or use `--family STD`, `VAR`, or `LRG` to run them separately into the same CSV. The budget experiment uses the fixed customer sets from the STD and VAR OOS runs. New results go to `results/generated/`. Full routing can take several hours. Use a different `--output-dir` to repeat an experiment. For an interrupted LRG run, use `--experiment oos --family LRG --resume` with the same target and output options.
 
 The paper uses scenarios 1–16 for construction and 129–512 for STD/VAR evaluation. LRG uses P128 training labels and scenarios 17–128 for evaluation. The timing table combines results from different hardware, so fresh running times may vary.
 
